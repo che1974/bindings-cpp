@@ -85,9 +85,9 @@
     "linelength": "120"
   },
   "binary": {
-    "napi_versions": [
-      8
-    ]
+    "module_name": "bindings",
+    "module_path": "prebuilds/{platform}-{arch}",
+    "host": "https://github.com/che1974/bindings-cpp/releases/download/"
   },
   "repository": {
     "type": "git",
